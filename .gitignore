@@ -1,0 +1,15 @@
+# npm 依存関係
+package-lock.json
+node_modules/
+
+# ビルド成果物
+dist/
+
+# OS が生成するファイル
+.DS_Store
+
+# 環境変数
+.env
+
+# ログ
+*.log

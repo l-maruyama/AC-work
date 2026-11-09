@@ -1,0 +1,10 @@
+{
+	"SCSS image url": {
+		"scope": "scss,css",
+		"prefix": "bgimg",
+		"body": [
+			"background: url(\"../images/$1\");"
+		],
+		"description": "dist基準の背景画像パス"
+	},
+}

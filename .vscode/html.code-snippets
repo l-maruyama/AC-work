@@ -1,0 +1,29 @@
+{
+	"Image tag": {
+		"scope": "html,nunjucks",
+		"prefix": "img",
+		"body": [
+			"<img class=\"$1\" src=\"./assets/images/$2\" alt=\"$3\" width=\"\" height=\"\" loading=\"\" decoding=\"\">"
+		],
+		"description": "dist基準の画像タグ"
+	},
+	"Picture tag": {
+		"scope": "html,nunjucks",
+		"prefix": "picture",
+		"body": [
+			"<picture>",
+			"\t<source srcset=\"./assets/images/$1\" media=\"(max-width: 768px)\">",
+			"\t<img class=\"$2\" src=\"./assets/images/$3\" alt=\"$4\" width=\"\" height=\"\" loading=\"\" decoding=\"\">",
+			"</picture>"
+		],
+		"description": "dist基準のpictureタグ"
+	},
+	"Rel noreferrer noopener": {
+		"scope": "html,nunjucks",
+		"prefix": "n",
+		"body": [
+			"noreferrer noopener"
+		],
+		"description": "rel属性用 noreferrer noopener"
+	}
+}
